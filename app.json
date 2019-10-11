@@ -1,0 +1,25 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/grid/grid",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1772cb",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#1772cb",
+    "enablePullDownRefresh":true
+    
+
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents":{
+   
+    "son":    "/components/son/son",
+    "father": "/components/father/father"
+  }
+  
+}

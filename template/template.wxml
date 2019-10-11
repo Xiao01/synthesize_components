@@ -1,0 +1,21 @@
+
+<template name="tabBar">
+  <view class="page__bd">
+    <view class="weui-tabbar">
+    
+      <block wx:for="{{tabBar}}" wx:for-item="item" wx:key="tabBar">
+        <view class="weui-tabbar__item ">
+          <navigator open-type="redirect" url="{{item.pagePath}}">
+            <view style="position: relative;display:inline-block;">
+              <image class="weui-tabbar__icon" src='{{item.iconPath}}'></image>
+              <view class="{{item.pop?'weui-badge weui-badge_dot':''}}" style="position:absolute;top:-2px;left:calc(100% - 3px);">{{item.pop}}</view>
+            </view>
+            <view class="weui-tabbar__label">{{item.text}}</view>
+          </navigator>
+        </view>
+      </block>
+    </view>
+  </view>
+
+
+</template>

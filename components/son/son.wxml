@@ -1,0 +1,3 @@
+<view bindtap="sendMesgToFather" >点我向父组件传值
+<slot></slot>
+</view>
