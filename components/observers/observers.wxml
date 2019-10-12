@@ -1,0 +1,3 @@
+<!--components/observers/observers.wxml-->
+<text>components/observers/observers.wxml</text>
+<view>{{numberA1}} + {{numberB1}} ={{sum1}}</view>

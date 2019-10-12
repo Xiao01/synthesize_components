@@ -1,6 +1,8 @@
 <!--index.wxml-->
 <view class="page">
 
+<observers  />
+
 <father>
   <son> No.1</son>
   <son1> No.2</son1>
