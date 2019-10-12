@@ -34,7 +34,7 @@ function tabbarmain(bindName = "tabdata", id, target) {
   otabbar[id]['current'] = 1;
   
   bindData[bindName] = otabbar
-  console.log("bindData:  " + JSON.stringify(bindData))
+ // console.log("bindData:  " + JSON.stringify(bindData))
   that.setData({ bindData });
    
 }

@@ -37,13 +37,13 @@ Component({
     './../father/father':{
       type:'parent',
       linked:function(target){
-        console.log('son linked',target)
+        console.log('son1 linked',target)
       },
       linkChanged: function (target) {
-        console.log('son linkChanged',target)
+        console.log('son1 linkChanged',target)
       },
       unlinked: function (target) {
-        console.log('son unlinked', target)
+        console.log('son1unlinked', target)
       },
     }
   }

@@ -1,11 +1,18 @@
 <!--index.wxml-->
 <view class="page">
 
- <father bindfatherSendEvent="receiveValue" >
+<father>
+  <son> No.1</son>
+  <son1> No.2</son1>
+</father>
+
+
+ <!--<father bindfatherSendEvent="receiveValue" >
 
  </father>
  
  ------------
+ -->
   <import src="../../template/template.wxml" />
   <template is="tabBar" data="{{tabBar:bindData.tabBar}}" />
   <view class="page__hd">

@@ -1,7 +1,13 @@
-<!--components/father/father.wxml-->
+<!--components/father/father.wxml
 <view class="indexView">
 
     <son bindsonSendEvent="indexSendEvent" ></son>
 <view>{{rank}} </view>
    
+</view>
+-->
+
+
+<view class="wrapper">
+<slot></slot>
 </view>

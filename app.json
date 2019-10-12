@@ -19,6 +19,7 @@
   "usingComponents":{
    
     "son":    "/components/son/son",
+    "son1":   "/components/son1/son1",
     "father": "/components/father/father"
   }
   
